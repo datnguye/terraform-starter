@@ -17,4 +17,9 @@ REF: https://learn.hashicorp.com/tutorials/terraform/azure-build
 //Install the Azure CLI tool - https://docs.microsoft.com/en-us/cli/azure/install-azure-cli
 //Authenticate using the Azure CLI: az login
 cd learn-terraform-azure
+terraform init
+terraform plan
+terraform apply
+//terraform show
+//terraform state list
 ...
