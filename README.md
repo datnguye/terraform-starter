@@ -1,6 +1,5 @@
 # terraform-starter
 
-
 ### terraform-docker-demo
 REF: https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/azure-get-started
 
@@ -12,10 +11,10 @@ terraform apply
 //docker ps
 //terraform destroy
 
-### build-infra-with-azure
+### learn-terraform-azure
 REF: https://learn.hashicorp.com/tutorials/terraform/azure-build
 
-//Install the Azure CLI tool - powershell as admin: Invoke-WebRequest -Uri https://aka.ms/installazurecliwindows -OutFile .\AzureCLI.msi; Start-Process msiexec.exe -Wait -ArgumentList '/I AzureCLI.msi /quiet'; rm .\AzureCLI.msi
+//Install the Azure CLI tool - https://docs.microsoft.com/en-us/cli/azure/install-azure-cli
 //Authenticate using the Azure CLI: az login
 cd learn-terraform-azure
 ...
